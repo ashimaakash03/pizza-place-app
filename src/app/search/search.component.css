@@ -1,0 +1,25 @@
+div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 50px;
+}
+
+input, button{
+    border: 2px solid orangered;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+button{
+    background-color: orangered;
+    color: white; 
+    margin: 5px;
+    width: 100px;
+    opacity: 80%;
+}
+
+button:hover{
+    opacity: 100%;
+    cursor: pointer;
+}

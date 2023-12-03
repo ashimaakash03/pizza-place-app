@@ -1,0 +1,31 @@
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a {
+    height: 27rem;
+    width: 20rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+li a img{
+    border-radius: 1rem;
+}
+
+li a:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.name, .tags, .price{
+    color: red;
+}

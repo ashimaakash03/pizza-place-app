@@ -1,0 +1,23 @@
+<app-search></app-search>
+<ul>
+    <li *ngFor="let pizza of pizzas">
+        <a>
+        <img src="{{pizza.imageUrl}}" alt="pizza images">
+        <div class="content">
+            <div class="name">
+                {{pizza.name}}
+            </div>
+            <div class="product-item-footer">
+                <div class="tags">
+                    <span *ngFor="let tag of pizza.tags">
+                        {{tag}}
+                    </span>
+                </div>
+                <div class="price">
+                    {{pizza.price|currency}}
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
